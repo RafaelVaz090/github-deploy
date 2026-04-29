@@ -1,9 +1,9 @@
 name: Publicando minha imagem automaticamente
-
+# Definindo onde será o gatilho
 on:
   push:
     branches: [main]
-    
+# Serviço base, VM com Ubuntu    
 jobs:
   CI:
     runs-on: ubuntu-latest
